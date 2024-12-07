@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue_forBaner: #00a2e8;
+    --blue-hover_a:#6bbdee;
+    --swiper_span:#00a2e8;
+    --titleAbout:#55504f;
+    --p_about:#555252;
+    --color_hover_mahsol_detaill:#7a716d;
+    --color_hover_mahsol_detaill_p:#378cc4;
+    --color_explain:#35312e;
+    --price_background_price:#948a85;
+    --price_explain_hover:#378cc4;
+    --price_background_price_hover:#86c3dd;
+--background_offer: #378cc4;
+    --title_review:#56504d;
+    --image_review:#736b66;
+    --review_JOHN:#5ea6d3;
+    --input_submit_placce:#786960;
+--color_placeHolder:#cbbdb5;
+    --colorBorderOfMedia:#30679f;
+}
+
+@font-face{
+    font-family: FonT1;
+ src: url("../myriad-pro/MYRIADPRO-BOLD.OTF")
+  }
+
+@keyframes border12{
+    0%{
+        border-bottom-color:red;
+        color:red;
+    }
+    10%{
+        border-bottom-color:blue;
+    }
+    15%{
+        border-bottom-color:yellow;
+        color: blue;
+    }
+    20%{
+        border-bottom-color:seagreen;
+    }
+
+    25%{
+        border-right-color:blue;
+        color: yellow;
+    }
+    30%{
+        border-right-color:red;
+    }
+    35%{
+        border-right-color:green;
+        color: purple;
+    }
+    40%{
+        border-right-color:yellow;
+    }
+
+
+
+
+    50%{
+        border-top-color: orange;
+
+    }
+    55%{
+        border-top-color: red;
+        color: peachpuff;
+    }
+    60%{
+        border-top-color: green;
+    }
+    70%{
+        border-top-color: blue;
+        color: darkred;
+    }
+    75%{
+        border-left-color:green;
+    }
+    80%{
+        border-left-color:blue;
+        color: aqua;
+    }
+
+    85%{
+        border-left-color:orange;
+    }
+    100%{
+        border-left-color:palevioletred;
+        color: palevioletred;
+    }
+}

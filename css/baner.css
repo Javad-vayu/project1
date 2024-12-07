@@ -1,0 +1,460 @@
+@media (min-width: 1200px) {
+    div.baner_top {
+        width: 100%;
+        height: 52px;
+       background-color: var(--blue_forBaner);
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 400px;
+    }
+    div.telphone-message{
+        width: 600px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+        position: relative;
+
+
+
+
+
+    }
+
+    div.telphone-message>p:nth-of-type(1){
+        width: 130px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        align-items: center;
+        font-size: 14px;
+fon-weight: bold;
+        position: absolute;
+        left: 244px;
+        color: white;
+
+
+    }
+    div.telphone-message>p:nth-of-type(1)>img{
+        margin-right: 5px;
+    }
+    div.telphone-message>p:nth-of-type(2){
+        width: 200px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        fon-weight: bold;
+        font-size: 14px;
+        align-items: center;
+
+              position: absolute;
+        left: 396px;
+        color: white;
+
+    }
+    div.telphone-message>p:nth-of-type(2)>img{
+        margin-right: 5px;
+    }
+
+
+
+    div.logn{
+        width: 800px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap:32px;
+
+        position: relative;
+
+    }
+    div.logn>p{
+        width: 80px;
+        fon-weight: bold;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+
+    }
+    div.logn>p:nth-last-of-type(1){
+width: 130px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+    }
+    div.logn>p:nth-last-of-type(1)>img{
+ margin-right: 12px;
+        width: 16px;
+        height: 19px;
+    }
+
+}
+@media (min-width:992px) and (max-width: 1200px) {
+    div.baner_top {
+        width: 100%;
+        height: 52px;
+        background-color: var(  --blue_forBaner);
+
+        display: flex;
+        flex-flow: row nowrap;
+
+    }
+    div.telphone-message{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+gap: 10px;
+
+        position: relative;
+
+
+
+
+
+    }
+
+    div.telphone-message>p:nth-of-type(1){
+display: flex;
+        color: white;
+        fon-weight: bold;
+        font-size: 14px;
+
+
+    }
+    div.telphone-message>p:nth-of-type(1)>img{
+        margin-right: 5px;
+    }
+    div.telphone-message>p:nth-of-type(2){
+
+        fon-weight: bold;
+        font-size: 14px;
+        color: white;
+
+    }
+    div.telphone-message>p:nth-of-type(2)>img{
+        margin-right: 5px;
+    }
+
+
+
+    div.logn{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap:32px;
+
+        position: relative;
+
+    }
+    div.logn>p{
+
+font-weight: bold;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+
+    }
+    div.logn>p:nth-last-of-type(1){
+        width: 130px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+    }
+    div.logn>p:nth-last-of-type(1)>img{
+        margin-right: 12px;
+        width: 16px;
+        height: 19px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    div.baner_top {
+        width: 100%;
+        height: 52px;
+       background-color: var(--blue_forBaner);
+
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+    div.telphone-message{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        position: relative;
+
+
+
+
+
+    }
+
+    div.telphone-message>p:nth-of-type(1){
+        display: flex;
+        color: white;
+        font-weight: bold;
+        font-size: 12px;
+
+
+    }
+    div.telphone-message>p:nth-of-type(1)>img{
+        margin-right: 5px;
+    }
+    div.telphone-message>p:nth-of-type(2){
+
+font-weight: bold;
+        font-size: 12px;
+        color: white;
+
+    }
+    div.telphone-message>p:nth-of-type(2)>img{
+        margin-right: 5px;
+    }
+
+
+
+    div.logn{
+        width: 50%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap:8px;
+
+        position: relative;
+
+    }
+    div.logn>p{
+
+font-weight: bold;
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+
+    }
+    div.logn>p:nth-last-of-type(1){
+        width: 130px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+    }
+    div.logn>p:nth-last-of-type(1)>img{
+        margin-right: 12px;
+        width: 16px;
+        height: 19px;
+    }
+
+}
+@media (min-width:540px) and (max-width: 768px) {
+        div.baner_top {
+            width: 100%;
+            height: 52px;
+            background-color: var(  --blue_forBaner);
+
+            display: flex;
+            flex-flow: row nowrap;
+
+        }
+        div.telphone-message{
+            width: 40%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+    gap: 10px;
+
+            position: relative;
+
+
+
+
+
+        }
+
+        div.telphone-message>p:nth-of-type(1){
+    display: flex;
+            height:inherit;
+            align-items: center;
+            justify-content: center;
+            color: white;
+              font-size: 10px;
+font-weight: bold;
+        }
+        div.telphone-message>p:nth-of-type(1)>img{
+            margin-right: 5px;
+            width: 15px;
+            height: 15px;
+        }
+        div.telphone-message>p:nth-of-type(2){
+            height:inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+color: white;
+font-size: 10px;
+            font-weight: bold;
+
+
+        }
+        div.telphone-message>p:nth-of-type(2)>img{
+            margin-right: 5px;
+            width: 15px;
+            height: 15px;
+        }
+
+
+
+        div.logn{
+            width: 60%;
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            gap:9px;
+
+            position: relative;
+
+        }
+        div.logn>p{
+
+font-weight: bold;
+            font-size: 10px;
+            color: white;
+            cursor: pointer;
+
+        }
+        div.logn>p:nth-last-of-type(1){
+
+            height: inherit;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+
+        }
+        div.logn>p:nth-last-of-type(1)>img{
+            margin-right: 3px;
+            width: 15px;
+            height: 15px;
+        }
+
+}
+@media (max-width: 540px) {
+    div.baner_top {
+        width: 100%;
+        height: 104px;
+        background-color: var(  --blue_forBaner);
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+    div.telphone-message{
+        width: 100%;
+        height: 52px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        position: relative;
+
+
+
+
+
+    }
+
+    div.telphone-message>p:nth-of-type(1){
+        display: flex;
+        height:inherit;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+
+    }
+    div.telphone-message>p:nth-of-type(1)>img{
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+    div.telphone-message>p:nth-of-type(2){
+        height:inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+
+
+    }
+    div.telphone-message>p:nth-of-type(2)>img{
+        margin-right: 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+    div.logn{
+        width: 100%;
+        height: 52px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap:9px;
+
+        position: relative;
+
+    }
+    div.logn>p{
+
+        font-weight: bold;
+        font-size: 10px;
+        color: white;
+        cursor: pointer;
+
+    }
+    div.logn>p:nth-last-of-type(1){
+
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+
+
+    }
+    div.logn>p:nth-last-of-type(1)>img{
+        margin-right: 3px;
+        width: 15px;
+        height: 15px;
+    }
+
+}

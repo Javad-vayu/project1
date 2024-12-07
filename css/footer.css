@@ -1,0 +1,1380 @@
+@media (min-width: 1200px){
+          footer{
+              width:100%;
+              height:652px;
+              display:flex;
+              flex-direction:column;
+              /*position:relative;*/
+
+
+          }
+    div.imgfooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+
+        background-image: url("../img/world-map.png");
+        /*background-repeat: no-repeat;*/
+        background-position: center center;
+        background-size: contain;
+        background-attachment: scroll;
+        position: absolute;
+        z-index: 1;
+        filter: brightness(35%);
+
+
+
+    }
+    div.mohtavaFooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+        position:relative;
+        background-color: #313132;
+
+
+
+
+    }
+    div.containerFooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+    }
+    div.matnfooter{
+        width:630px;
+        height:inherit;
+
+
+        position:relative;
+    }
+    div.mohtavmatnFooter{
+        width:430px;
+        height: inherit;
+        position: absolute;
+
+        display:flex;
+        flex-flow: column nowrap;
+        left:160px;
+
+    }
+    div.mohtavmatnFooter>div{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1){
+        width: 100%;
+        height: 203px;
+
+        align-items: flex-end;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p{
+        position: absolute;
+        z-index: 1;
+        bottom: 68px;
+    }
+
+    div.mohtavmatnFooter>div:nth-of-type(2){
+        width: 100%;
+        height: 54px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(2)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 25px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3){
+        width: 100%;
+        height: 195px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 19px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4){
+        width: 100%;
+        height: 130px;
+
+        display: flex;
+
+        align-items: flex-start;
+        gap: 20px;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p{
+        width: 36px;
+        height: 40px;
+
+        position: relative;
+        z-index: 1;
+        transition: all 100ms linear;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p:hover{
+        border: 4px solid var(--colorBorderOfMedia);
+
+    }
+    div.formsend{
+        width:60%;
+        height:inherit;
+
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+    div.formsend>form{
+        width: 550px;
+        height: inherit;
+
+        display: flex;
+       position: relative;
+
+    }
+    div.formsend>form>input[type=text],div.formsend>form>input[type=email]{
+        width: 255px;
+        height: 62px;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 123px;
+        padding-left:20px ;
+        font-size: 18px;
+        color: black;
+        z-index: 1;
+
+    }
+    div.formsend>form>input[type=email]{
+        left: 290px;
+    }
+
+    div.formsend>form>textarea{
+        width: 100%;
+        height: 170px;
+        position: absolute;
+        top: 220px;
+        resize: none;
+        z-index: 1;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        color: black;
+
+    }
+    div.formsend>form>textarea::placeholder{
+
+        color: black;
+        font-size: 18px;
+
+
+    }
+    div.formsend>form>input[type=submit]{
+width: 155px;
+        height: 53px;
+        border: none;
+        outline: none;
+        color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 17px;
+
+        position: absolute;
+        top: 434px;
+        right: 0;
+        z-index: 1;
+        background-color: var(--background_offer);
+    }
+
+    div.formsend>form>input::placeholder{
+        /*color: #6c635e;*/
+        color: black;
+    }
+
+
+    div.formsend>form>input:focus{
+        border: none;
+        outline: none;
+    }
+    div.formsend>form>textarea:focus{
+        border: none;
+        outline: none;
+    }
+    div.sign{
+        width: 100%;
+        height: 57px;
+        background-color:black;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        justify-content: center;
+
+
+
+        font-size: 16px;
+        color: white;
+        direction: rtl;
+        position: relative;
+        z-index: 3;
+    }
+
+
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+
+
+        footer{
+            width:100%;
+            height:652px;
+            display:flex;
+            flex-direction:column;
+            /*position:relative;*/
+
+
+        }
+        div.imgfooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+
+            background-image: url("../img/world-map.png");
+            /*background-repeat: no-repeat;*/
+            background-position: center center;
+            background-size: contain;
+            background-attachment: scroll;
+            position: absolute;
+            z-index: 1;
+            filter: brightness(35%);
+
+
+
+        }
+        div.mohtavaFooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+            position:relative;
+            background-color: #313132;
+
+
+
+
+        }
+        div.containerFooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+        }
+        div.matnfooter{
+            width:630px;
+            height:inherit;
+
+
+            position:relative;
+        }
+        div.mohtavmatnFooter{
+            width:430px;
+            height: inherit;
+            position: absolute;
+
+            display:flex;
+            flex-flow: column nowrap;
+            padding-left: 10px;
+
+        }
+        div.mohtavmatnFooter>div{
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(1){
+            width: 100%;
+            height: 203px;
+
+            align-items: flex-end;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(1)>p{
+            position: absolute;
+            z-index: 1;
+            bottom: 68px;
+        }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p>img{
+        width: 80px;
+        height: 60px;
+    }
+
+        div.mohtavmatnFooter>div:nth-of-type(2){
+            width: 100%;
+            height: 54px;
+
+            display: flex;
+
+            align-items: flex-start;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(2)>p{
+            position: absolute;
+            z-index: 1;
+            font-size: 16px;
+            color: white;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(3){
+            width: 100%;
+            height: 195px;
+
+            display: flex;
+
+            align-items: flex-start;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(3)>p{
+            position: absolute;
+            z-index: 1;
+            font-size: 14px;
+            color: white;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4){
+            width: 100%;
+            height: 130px;
+
+            display: flex;
+
+            align-items: flex-start;
+            gap: 20px;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4)>p{
+            width: 36px;
+            height: 40px;
+
+            position: relative;
+            z-index: 1;
+            transition: all 100ms linear;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4)>p:hover{
+            border: 4px solid var(--colorBorderOfMedia);
+
+        }
+        div.formsend{
+            width:60%;
+            height:inherit;
+
+            display: flex;
+            flex-flow: row nowrap;
+            text-align: center;
+            justify-content: center;
+        }
+        div.formsend>form{
+            width: 550px;
+            height: inherit;
+
+            display: flex;
+            position: relative;
+
+
+        }
+        div.formsend>form>input[type=text],div.formsend>form>input[type=email]{
+            width: 170px;
+            height: 40px;
+            border: none;
+            outline: none;
+            position: absolute;
+            top: 123px;
+            padding-left:20px ;
+            font-size: 16px;
+            color: black;
+            z-index: 1;
+
+        }
+        div.formsend>form>input[type=email]{
+            left: 290px;
+        }
+
+        div.formsend>form>textarea{
+            width: 90%;
+            height: 170px;
+            position: absolute;
+            top: 220px;
+            resize: none;
+            z-index: 1;
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: black;
+
+        }
+        div.formsend>form>textarea::placeholder{
+
+            color: black;
+            font-size: 16px;
+
+
+        }
+        div.formsend>form>input[type=submit]{
+            width: 130px;
+            height: 43px;
+            border: none;
+            outline: none;
+            color: white;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+
+            position: absolute;
+            top: 434px;
+            right: 50px;
+            z-index: 1;
+            background-color: var(--background_offer);
+        }
+
+        div.formsend>form>input::placeholder{
+            /*color: #6c635e;*/
+            color: black;
+        }
+
+
+        div.formsend>form>input:focus{
+            border: none;
+            outline: none;
+        }
+        div.formsend>form>textarea:focus{
+            border: none;
+            outline: none;
+        }
+        div.sign{
+            width: 100%;
+            height: 57px;
+            background-color:black;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            justify-content: center;
+
+
+
+            font-size: 13px;
+            color: white;
+            direction: rtl;
+            position: relative;
+            z-index: 3;
+        }
+
+
+
+    }
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+
+
+        footer{
+            width:100%;
+            height:652px;
+            display:flex;
+            flex-direction:column;
+            /*position:relative;*/
+
+
+        }
+        div.imgfooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+
+            background-image: url("../img/world-map.png");
+            /*background-repeat: no-repeat;*/
+            background-position: center center;
+            background-size: contain;
+            background-attachment: scroll;
+            position: absolute;
+            z-index: 1;
+            filter: brightness(35%);
+
+
+
+        }
+        div.mohtavaFooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+            position:relative;
+            background-color: #313132;
+
+
+
+
+        }
+        div.containerFooter{
+            width:100%;
+            height:595px;
+            display:flex;
+            flex-flow: row nowrap;
+        }
+        div.matnfooter{
+            width:630px;
+            height:inherit;
+
+
+            position:relative;
+        }
+        div.mohtavmatnFooter{
+            width:230px;
+            height: inherit;
+            position: absolute;
+
+            display:flex;
+            flex-flow: column wrap;
+            padding-left: 10px;
+
+
+        }
+        div.mohtavmatnFooter>div{
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(1){
+            width: 100%;
+            height: 203px;
+
+            align-items: flex-end;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(1)>p{
+            position: absolute;
+            z-index: 1;
+            bottom: 68px;
+        }
+        div.mohtavmatnFooter>div:nth-of-type(1)>p>img{
+            width: 50px;
+            height: 40px;
+        }
+
+        div.mohtavmatnFooter>div:nth-of-type(2){
+            width: 100%;
+            height: 54px;
+
+            display: flex;
+
+            align-items: flex-start;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(2)>p{
+            position: absolute;
+            z-index: 1;
+            font-size: 16px;
+            color: white;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(3){
+            width: 100%;
+            height: 195px;
+
+            display: flex;
+
+            align-items: flex-start;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(3)>p{
+            position: absolute;
+            z-index: 1;
+            font-size: 14px;
+            color: white;
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4){
+            width: 100%;
+            height: 130px;
+
+            display: flex;
+
+            align-items: flex-start;
+            gap: 20px;
+            position: relative;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4)>p{
+            width: 36px;
+            height: 40px;
+
+            position: relative;
+            z-index: 1;
+            transition: all 100ms linear;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        div.mohtavmatnFooter>div:nth-of-type(4)>p:hover{
+            border: 4px solid var(--colorBorderOfMedia);
+
+        }
+        div.formsend{
+            width:60%;
+            height:inherit;
+
+            display: flex;
+            flex-flow: row nowrap;
+            text-align: center;
+            justify-content: center;
+        }
+        div.formsend>form{
+            width: 550px;
+            height: inherit;
+
+            display: flex;
+            position: relative;
+
+
+
+        }
+        div.formsend>form>input[type=text],div.formsend>form>input[type=email]{
+            width: 140px;
+            height: 40px;
+            border: none;
+            outline: none;
+            position: absolute;
+            top: 123px;
+            padding-left:20px ;
+            font-size: 14px;
+            color: black;
+            z-index: 1;
+            margin-left: 10px;
+
+        }
+        div.formsend>form>input[type=email]{
+            left: 190px;
+        }
+
+        div.formsend>form>textarea{
+            width: 70%;
+            height: 170px;
+            position: absolute;
+            top: 220px;
+            resize: none;
+            z-index: 1;
+            padding-left: 20px;
+            padding-top: 20px;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            color: black;
+            margin-left: 10px;
+
+        }
+        div.formsend>form>textarea::placeholder{
+
+            color: black;
+            font-size: 13px;
+
+
+        }
+        div.formsend>form>input[type=submit]{
+            width: 130px;
+            height: 43px;
+            border: none;
+            outline: none;
+            color: white;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+
+            position: absolute;
+            top: 434px;
+            right: 165px;
+            z-index: 1;
+            background-color: var(--background_offer);
+        }
+
+        div.formsend>form>input::placeholder{
+            /*color: #6c635e;*/
+            color: black;
+        }
+
+
+        div.formsend>form>input:focus{
+            border: none;
+            outline: none;
+        }
+        div.formsend>form>textarea:focus{
+            border: none;
+            outline: none;
+        }
+        div.sign{
+            width: 100%;
+            height: 57px;
+            background-color:black;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            justify-content: center;
+
+
+
+            font-size: 13px;
+            color: white;
+            direction: rtl;
+            position: relative;
+            z-index: 3;
+        }
+
+
+
+    }
+
+
+@media (min-width: 540px) and (max-width: 768px){
+
+
+
+
+    footer{
+        width:100%;
+        height:652px;
+        display:flex;
+        flex-direction:column;
+        /*position:relative;*/
+
+
+    }
+    div.imgfooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+
+        background-image: url("../img/world-map.png");
+        /*background-repeat: no-repeat;*/
+        background-position: center center;
+        background-size: contain;
+        background-attachment: scroll;
+        position: absolute;
+        z-index: 1;
+        filter: brightness(35%);
+
+
+
+    }
+    div.mohtavaFooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+        position:relative;
+        background-color: #313132;
+
+
+
+
+    }
+    div.containerFooter{
+        width:100%;
+        height:595px;
+        display:flex;
+        flex-flow: row nowrap;
+    }
+    div.matnfooter{
+        width:630px;
+        height:inherit;
+
+
+        position:relative;
+    }
+    div.mohtavmatnFooter{
+        width:230px;
+        height: inherit;
+        position: absolute;
+
+        display:flex;
+        flex-flow: column nowrap;
+        padding-left: 10px;
+
+
+    }
+    div.mohtavmatnFooter>div{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1){
+        width: 100%;
+        height: 203px;
+
+        align-items: flex-end;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p{
+        position: absolute;
+        z-index: 1;
+        bottom: 68px;
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p>img{
+        width: 50px;
+        height: 40px;
+    }
+
+    div.mohtavmatnFooter>div:nth-of-type(2){
+        width: 100%;
+        height: 54px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(2)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 16px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3){
+        width: 100%;
+        height: 195px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 14px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4){
+        width: 100%;
+        height: 130px;
+
+        display: flex;
+        flex-flow: row wrap;
+
+        align-items: flex-start;
+        gap: 20px;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p{
+        width: 36px;
+        height: 40px;
+
+        position: relative;
+        z-index: 1;
+        transition: all 100ms linear;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p:hover{
+        border: 4px solid var(--colorBorderOfMedia);
+
+    }
+    div.formsend{
+        width:60%;
+        height:inherit;
+
+        display: flex;
+        flex-flow: row nowrap;
+        text-align: center;
+        justify-content: center;
+    }
+    div.formsend>form{
+        width: 550px;
+        height: inherit;
+
+        display: flex;
+        position: relative;
+
+
+
+    }
+    div.formsend>form>input[type=text],div.formsend>form>input[type=email]{
+        width: 120px;
+        height: 30px;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 123px;
+        padding-left:20px ;
+        font-size: 10px;
+        color: black;
+        z-index: 1;
+        margin-left: 10px;
+
+    }
+    div.formsend>form>input[type=email]{
+        left: 150px;
+    }
+
+    div.formsend>form>textarea{
+        width: 300px;
+        height: 170px;
+        position: absolute;
+        top: 180px;
+        resize: none;
+        z-index: 1;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 10px;
+        border: none;
+        outline: none;
+        color: black;
+        margin-left: 10px;
+
+    }
+    div.formsend>form>textarea::placeholder{
+
+        color: black;
+        font-size: 10px;
+
+
+    }
+    div.formsend>form>input[type=submit]{
+        width: 130px;
+        height: 30px;
+        border: none;
+        outline: none;
+        color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+
+        position: absolute;
+        top: 390px;
+        right: 120px;
+        z-index: 1;
+        background-color: var(--background_offer);
+    }
+
+    div.formsend>form>input::placeholder{
+        /*color: #6c635e;*/
+        color: black;
+    }
+
+
+    div.formsend>form>input:focus{
+        border: none;
+        outline: none;
+    }
+    div.formsend>form>textarea:focus{
+        border: none;
+        outline: none;
+    }
+    div.sign{
+        width: 100%;
+        height: 57px;
+        background-color:black;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        justify-content: center;
+
+
+
+        font-size: 11px;
+        color: white;
+        direction: rtl;
+        position: relative;
+        z-index: 3;
+    }
+
+
+
+}
+
+
+@media(max-width: 540px){
+
+
+
+
+
+    footer{
+        width:100%;
+        height:1040px;
+        display:flex;
+        flex-direction:column;
+
+
+
+
+    }
+    div.imgfooter{
+        width:100%;
+        height:1000px;
+        display:flex;
+        flex-flow: row nowrap;
+
+        background-image: url("../img/world-map.png");
+        /*background-repeat: no-repeat;*/
+        background-position: center center;
+        background-size: contain;
+        background-attachment: scroll;
+        position: absolute;
+        z-index: 1;
+        filter: brightness(35%);
+
+
+
+    }
+    div.mohtavaFooter{
+        width:100%;
+        height:inherit;
+        display:flex;
+        flex-flow: column wrap;
+        position:relative;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #313132;
+
+
+
+
+    }
+    div.containerFooter{
+        width:100%;
+        height:1000px;
+        display:flex;
+        flex-flow: column nowrap;
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+
+    }
+    div.matnfooter{
+        width:100%;
+        height:500px;
+
+display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position:relative;
+    }
+    div.mohtavmatnFooter{
+        width:230px;
+        height: inherit;
+        position: absolute;
+
+        display:flex;
+        flex-flow: column nowrap;
+
+
+    }
+    div.mohtavmatnFooter>div{
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1){
+        width: 100%;
+        height: 203px;
+
+        align-items: flex-end;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p{
+        position: absolute;
+        z-index: 1;
+        bottom: 68px;
+    }
+    div.mohtavmatnFooter>div:nth-of-type(1)>p>img{
+        width: 50px;
+        height: 40px;
+    }
+
+    div.mohtavmatnFooter>div:nth-of-type(2){
+        width: 100%;
+        height: 54px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(2)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 16px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3){
+        width: 100%;
+        height: 195px;
+
+        display: flex;
+
+        align-items: flex-start;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(3)>p{
+        position: absolute;
+        z-index: 1;
+        font-size: 14px;
+        color: white;
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4){
+        width: 100%;
+        height: 130px;
+
+        display: flex;
+        flex-flow: row wrap;
+
+        align-items: flex-start;
+        gap: 20px;
+        position: relative;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p{
+        width: 36px;
+        height: 40px;
+
+        position: relative;
+        z-index: 1;
+        transition: all 100ms linear;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    div.mohtavmatnFooter>div:nth-of-type(4)>p:hover{
+        border: 4px solid var(--colorBorderOfMedia);
+
+    }
+    div.formsend{
+        width:60%;
+        height:500px;
+
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    div.formsend>form{
+        width: 550px;
+        height: inherit;
+
+        display: flex;
+        flex-flow: row nowrap;
+
+
+        position: relative;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+    div.formsend>form>input[type=text],div.formsend>form>input[type=email]{
+        width: 100px;
+        height: 30px;
+        border: none;
+        outline: none;
+        position: absolute;
+        top: 123px;
+
+        font-size: 11px;
+        color: black;
+        z-index: 1;
+
+
+    }
+    div.formsend>form>input[type=email]{
+        /*left: 150px;*/
+        margin-right: 140px;
+
+    }
+    div.formsend>form>input[type=text]{
+        margin-left: 160px;
+    }
+
+    div.formsend>form>textarea{
+        width: 250px;
+        height: 170px;
+        position: absolute;
+        top: 180px;
+        resize: none;
+        z-index: 1;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 10px;
+        border: none;
+        outline: none;
+        color: black;
+        margin-left: 10px;
+
+
+
+    }
+    div.formsend>form>textarea::placeholder{
+
+        color: black;
+        font-size: 10px;
+
+
+    }
+    div.formsend>form>input[type=submit]{
+        width: 100px;
+        height: 30px;
+        border: none;
+        outline: none;
+        color: white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-size: 11px;
+
+        position: absolute;
+        top: 390px;
+
+        z-index: 1;
+        background-color: var(--background_offer);
+    }
+
+    div.formsend>form>input::placeholder{
+        /*color: #6c635e;*/
+        color: black;
+    }
+
+
+    div.formsend>form>input:focus{
+        border: none;
+        outline: none;
+    }
+    div.formsend>form>textarea:focus{
+        border: none;
+        outline: none;
+    }
+    div.sign{
+        width: 100%;
+        height: 40px;
+        background-color:black;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+
+
+        font-size: 11px;
+        color: white;
+        direction: rtl;
+        position: relative;
+        z-index: 3;
+    }
+
+
+
+}
+
+
+

@@ -1,0 +1,1266 @@
+@media (min-width: 1200px) {
+    div.containerProduct {
+        width: 100%;
+        height: 985px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    div.imgProduct {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        /*background-image: url("../img/Layer 2process_992px.png");*/
+        /*background-position: center;*/
+        /*background-attachment: scroll;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*filter: brightness(22%)*/
+
+    }
+    div.imgProduct>img{
+        width: 100%;
+
+        height: inherit;
+        filter: brightness(22%);
+    }
+    div.titleProduct {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+        justify-content: center;
+        /*position: absolute;*/
+        /*z-index: 1;*/
+
+    }
+
+    div.mohtav_product {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        z-index: 4;
+    }
+
+
+
+    div.titleProduct > p {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.titleProduct > p > span {
+        color: var(--background_offer);
+    }
+
+    div.item_product {
+        width: 100%;
+height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        /* position: absolute;*/
+        /*z-index: 1;*/
+    }
+
+    div.item-mohtav-product {
+        width: 370px;
+        height: 470px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        position: relative;
+        top: -51px;
+
+        /*margin-top: -80px;*/
+    }
+
+    div.mahsol-product {
+        width: 100%;
+        height: 410px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    div.sale-product {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+       top: 16px;
+        right: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+
+    div.sale-product1 {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        left: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product1{
+        display: none;
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product{
+        display: none;
+    }
+
+    div.mahsol-with-detail-product {
+        width: 345px;
+        height: 385px;
+        background-color: var(--color_hover_mahsol_detaill);
+        display: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    div.mahsol-with-detail-product > div {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 8px;
+    }
+
+    div.mahsol-with-detail-product > div > p {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    div.mahsol-with-detail-product > p {
+        width: 166px;
+        height: 50px;
+        background-color: #35312e;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+        gap: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product > div.mahsol-with-detail-product {
+
+        display: flex;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > div > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.price-product {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+
+    div.price-product > div:nth-of-type(1) {
+        width: 290px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        background-color: var(--color_explain);
+    }
+
+    div.price-product > div:nth-of-type(2) {
+        width: 80px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: var(--price_background_price);
+
+
+    }
+
+    div.price-product > div:nth-of-type(2) > p {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(1) {
+        background-color: var(--price_explain_hover);
+        font-weight: lighter;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(2) {
+        background-color: var(--price_background_price_hover);
+        font-weight: lighter;
+
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    div.containerProduct {
+        width: 100%;
+        height: 1185px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    div.imgProduct {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        /*background-image: url("../img/Layer 2process_992px.png");*/
+        /*background-position: center;*/
+        /*background-attachment: scroll;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*filter: brightness(22%)*/
+
+    }
+    div.imgProduct>img{
+        width: 100%;
+
+        height: inherit;
+        filter: brightness(22%);
+    }
+    div.titleProduct {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        /*position: absolute;*/
+        /*z-index: 1;*/
+
+    }
+
+    div.mohtav_product {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        z-index: 4;
+    }
+
+
+
+    div.titleProduct > p {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.titleProduct > p > span {
+        color: var(--background_offer);
+    }
+
+    div.item_product {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        /* position: absolute;*/
+        /*z-index: 1;*/
+    }
+
+    div.item-mohtav-product {
+        width: 370px;
+        height: 470px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        position: relative;
+        top: -51px;
+
+        /*margin-top: -80px;*/
+    }
+
+    div.mahsol-product {
+        width: 100%;
+        height: 410px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    div.sale-product {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+
+    div.sale-product1 {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        left: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product1{
+        display: none;
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product{
+        display: none;
+    }
+
+    div.mahsol-with-detail-product {
+        width: 345px;
+        height: 385px;
+        background-color: var(--color_hover_mahsol_detaill);
+        display: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    div.mahsol-with-detail-product > div {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 8px;
+    }
+
+    div.mahsol-with-detail-product > div > p {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    div.mahsol-with-detail-product > p {
+        width: 166px;
+        height: 50px;
+        background-color: #35312e;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+        gap: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product > div.mahsol-with-detail-product {
+
+        display: flex;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > div > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.price-product {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+
+    div.price-product > div:nth-of-type(1) {
+        width: 290px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        background-color: var(--color_explain);
+    }
+
+    div.price-product > div:nth-of-type(2) {
+        width: 80px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: var(--price_background_price);
+
+
+    }
+
+    div.price-product > div:nth-of-type(2) > p {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(1) {
+        background-color: var(--price_explain_hover);
+        font-weight: lighter;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(2) {
+        background-color: var(--price_background_price_hover);
+        font-weight: lighter;
+
+    }
+}
+@media (min-width: 768px)  and (max-width: 992px) {
+    div.containerProduct {
+        width: 100%;
+        height: 1685px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    div.imgProduct {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        /*background-image: url("../img/Layer 2process_992px.png");*/
+        /*background-position: center;*/
+        /*background-attachment: scroll;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*filter: brightness(22%)*/
+
+    }
+    div.imgProduct>img{
+        width: 100%;
+
+        height: inherit;
+        filter: brightness(22%);
+    }
+    div.titleProduct {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        /*position: absolute;*/
+        /*z-index: 1;*/
+
+    }
+
+    div.mohtav_product {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        z-index: 4;
+    }
+
+
+
+    div.titleProduct > p {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.titleProduct > p > span {
+        color: var(--background_offer);
+    }
+
+    div.item_product {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        /* position: absolute;*/
+        /*z-index: 1;*/
+    }
+
+    div.item-mohtav-product {
+        width: 370px;
+        height: 470px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        position: relative;
+        top: -51px;
+
+        /*margin-top: -80px;*/
+    }
+
+    div.mahsol-product {
+        width: 100%;
+        height: 410px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    div.sale-product {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+
+    div.sale-product1 {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        left: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product1{
+        display: none;
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product{
+        display: none;
+    }
+
+    div.mahsol-with-detail-product {
+        width: 345px;
+        height: 385px;
+        background-color: var(--color_hover_mahsol_detaill);
+        display: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    div.mahsol-with-detail-product > div {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 8px;
+    }
+
+    div.mahsol-with-detail-product > div > p {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    div.mahsol-with-detail-product > p {
+        width: 166px;
+        height: 50px;
+        background-color: #35312e;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+        gap: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product > div.mahsol-with-detail-product {
+
+        display: flex;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > div > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.price-product {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+
+    div.price-product > div:nth-of-type(1) {
+        width: 290px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        background-color: var(--color_explain);
+    }
+
+    div.price-product > div:nth-of-type(2) {
+        width: 80px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: var(--price_background_price);
+
+
+    }
+
+    div.price-product > div:nth-of-type(2) > p {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(1) {
+        background-color: var(--price_explain_hover);
+        font-weight: lighter;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(2) {
+        background-color: var(--price_background_price_hover);
+        font-weight: lighter;
+
+    }
+}
+
+
+@media  (min-width: 540px)  and (max-width:768px) {
+    div.containerProduct {
+        width: 100%;
+        height: 1685px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    div.imgProduct {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        /*background-image: url("../img/Layer 2process_992px.png");*/
+        /*background-position: center;*/
+        /*background-attachment: scroll;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*filter: brightness(22%)*/
+
+    }
+    div.imgProduct>img{
+        width: 100%;
+
+        height: inherit;
+        filter: brightness(22%);
+    }
+    div.titleProduct {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        /*position: absolute;*/
+        /*z-index: 1;*/
+
+    }
+
+    div.mohtav_product {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        z-index: 4;
+    }
+
+
+
+    div.titleProduct > p {
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.titleProduct > p > span {
+        color: var(--background_offer);
+    }
+
+    div.item_product {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        /* position: absolute;*/
+        /*z-index: 1;*/
+    }
+
+    div.item-mohtav-product {
+        width: 370px;
+        height: 470px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        position: relative;
+        top: -51px;
+
+        /*margin-top: -80px;*/
+    }
+
+    div.mahsol-product {
+        width: 100%;
+        height: 410px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    div.sale-product {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+
+    div.sale-product1 {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        left: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product1{
+        display: none;
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product{
+        display: none;
+    }
+
+    div.mahsol-with-detail-product {
+        width: 345px;
+        height: 385px;
+        background-color: var(--color_hover_mahsol_detaill);
+        display: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    div.mahsol-with-detail-product > div {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 8px;
+    }
+
+    div.mahsol-with-detail-product > div > p {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    div.mahsol-with-detail-product > p {
+        width: 166px;
+        height: 50px;
+        background-color: #35312e;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+        gap: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product > div.mahsol-with-detail-product {
+
+        display: flex;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > div > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.price-product {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+
+    div.price-product > div:nth-of-type(1) {
+        width: 290px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        background-color: var(--color_explain);
+    }
+
+    div.price-product > div:nth-of-type(2) {
+        width: 80px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: var(--price_background_price);
+
+
+    }
+
+    div.price-product > div:nth-of-type(2) > p {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(1) {
+        background-color: var(--price_explain_hover);
+        font-weight: lighter;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(2) {
+        background-color: var(--price_background_price_hover);
+        font-weight: lighter;
+
+    }
+}
+
+
+@media  (max-width: 540px)  {
+    div.containerProduct {
+        width: 100%;
+        height: 1685px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    div.imgProduct {
+        width: 100%;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+        z-index: -1;
+        /*background-image: url("../img/Layer 2process_992px.png");*/
+        /*background-position: center;*/
+        /*background-attachment: scroll;*/
+        /*background-repeat: no-repeat;*/
+        /*background-size: cover;*/
+        /*filter: brightness(22%)*/
+
+    }
+    div.imgProduct>img{
+        width: 100%;
+
+        height: inherit;
+        filter: brightness(22%);
+    }
+    div.titleProduct {
+        width: 100%;
+        height: 175px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        /*position: absolute;*/
+        /*z-index: 1;*/
+
+    }
+
+    div.mohtav_product {
+        width: 100%;
+        height: 810px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+        z-index: 4;
+    }
+
+
+
+    div.titleProduct > p {
+        font-size: 38px;
+        font-weight: bold;
+        color: white;
+    }
+
+    div.titleProduct > p > span {
+        color: var(--background_offer);
+    }
+
+    div.item_product {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        /* position: absolute;*/
+        /*z-index: 1;*/
+    }
+
+    div.item-mohtav-product {
+        width: 370px;
+        height: 470px;
+
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: white;
+        position: relative;
+        top: -51px;
+
+        /*margin-top: -80px;*/
+    }
+
+    div.mahsol-product {
+        width: 100%;
+        height: 410px;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    div.sale-product {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+
+    div.sale-product1 {
+        width:100px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #2c292a;
+        position: absolute;
+        top: 16px;
+        left: 17px;
+        color:#5a514e;
+        font-size: 23px;
+        animation: border12 2s  infinite;
+    }
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product1{
+        display: none;
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product>div.sale-product{
+        display: none;
+    }
+
+    div.mahsol-with-detail-product {
+        width: 345px;
+        height: 385px;
+        background-color: var(--color_hover_mahsol_detaill);
+        display: none;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    div.mahsol-with-detail-product > div {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 8px;
+    }
+
+    div.mahsol-with-detail-product > div > p {
+        width: 50px;
+        height: 50px;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+    }
+
+    div.mahsol-with-detail-product > p {
+        width: 166px;
+        height: 50px;
+        background-color: #35312e;
+        border: 2px solid white;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 14px;
+        gap: 20px;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    div.item-mohtav-product:hover > div.mahsol-product > div.mahsol-with-detail-product {
+
+        display: flex;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.mahsol-product > div.mahsol-with-detail-product > div > p:hover {
+        background-color: var(--color_hover_mahsol_detaill_p);
+        border: none;
+    }
+
+    div.price-product {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-flow: row nowrap;
+
+
+    }
+
+    div.price-product > div:nth-of-type(1) {
+        width: 290px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding-left: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+        background-color: var(--color_explain);
+    }
+
+    div.price-product > div:nth-of-type(2) {
+        width: 80px;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+
+        background-color: var(--price_background_price);
+
+
+    }
+
+    div.price-product > div:nth-of-type(2) > p {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(1) {
+        background-color: var(--price_explain_hover);
+        font-weight: lighter;
+    }
+
+    div.item-mohtav-product:hover > div.price-product > div:nth-of-type(2) {
+        background-color: var(--price_background_price_hover);
+        font-weight: lighter;
+
+    }
+}
+
